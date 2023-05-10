@@ -149,8 +149,6 @@ async function prodFunc() {
 
   await productManager.getProducts();
 
-  await productManager.getProductById(2);
-
   await productManager.updateProduct(2, "title", "nuevo titulo");
 
   await productManager.getProductById(2);
