@@ -2,12 +2,12 @@ const fs = require("fs");
 
 class ProductManager {
   constructor() {
-    this.path = "../Desafio2/products2.json";
+    this.path = "./products2.json";
     this.products = [];
     this.id = 0;
     const createFile = async () => {
-      if (!fs.existsSync("../Desafio2/products2.json")) {
-        return await fs.promises.writeFile("../Desafio2/products2.json", "[]");
+      if (!fs.existsSync("./products2.json")) {
+        return await fs.promises.writeFile("./products2.json", "[]");
       }
     };
     createFile();
@@ -121,34 +121,42 @@ const productManager = new ProductManager();
 
 async function prodFunc() {
   await productManager.addProduct(
-    "remera de prueba",
-    "Esta es la descripcion de una remera de prueba",
+    "prueba1",
+    "Esta es la descripcion de una prueba1",
     1500,
     "Without image",
     "AAA001",
     36
   );
+
   await productManager.addProduct(
-    "pantalon de prueba",
-    "Esta es la descripcion de un pantalon de prueba",
+    "prueba2",
+    "Esta es la descripcion de un prueba2",
     2050,
     "Without image",
     "AAA002",
     29
   );
+
   await productManager.addProduct(
-    "zapatilla de prueba",
-    "Esta es la descripcion de una zapatilla de prueba",
+    "prueba3",
+    "Esta es la descripcion de una prueba3",
     1685,
     "Without image",
     "AAA003",
     32
   );
+
   await productManager.getProducts();
+
   await productManager.getProductById(2);
+
   await productManager.updateProduct(2, "title", "nuevo titulo");
+
   await productManager.getProductById(2);
+
   await productManager.deleteProduct(3);
+
   await productManager.getProducts();
 }
 

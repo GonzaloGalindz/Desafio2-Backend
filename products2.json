@@ -1,40 +1,8 @@
 [
   {
-    "title": "prueba-1",
-    "description": "Esta es la descripcion de prueba-1",
-    "price": 15,
-    "thumbnail": "Without image",
-    "code": "AAA004",
-    "stock": 36
-  },
-  {
-    "title": "prueba-2",
-    "description": "Esta es la descripcion de prueba-2",
-    "price": 10,
-    "thumbnail": "Without image",
-    "code": "AAA005",
-    "stock": 36
-  },
-  {
-    "title": "prueba-3",
-    "description": "Esta es la descripcion de prueba-3",
-    "price": 50,
-    "thumbnail": "Without image",
-    "code": "AAA006",
-    "stock": 36
-  },
-  {
-    "title": "prueba-4",
-    "description": "Esta es la descripcion de prueba-4",
-    "price": 80,
-    "thumbnail": "Without image",
-    "code": "AAA007",
-    "stock": 36
-  },
-  {
     "id": 1,
-    "title": "remera de prueba",
-    "description": "Esta es la descripcion de una remera de prueba",
+    "title": "prueba1",
+    "description": "Esta es la descripcion de una prueba1",
     "price": 1500,
     "thumbnail": "Without image",
     "code": "AAA001",
@@ -43,7 +11,7 @@
   {
     "id": 2,
     "title": "nuevo titulo",
-    "description": "Esta es la descripcion de un pantalon de prueba",
+    "description": "Esta es la descripcion de un prueba2",
     "price": 2050,
     "thumbnail": "Without image",
     "code": "AAA002",
