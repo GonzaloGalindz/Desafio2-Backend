@@ -120,32 +120,32 @@ class ProductManager {
 const productManager = new ProductManager();
 
 async function prodFunc() {
-  await productManager.addProduct(
-    "prueba1",
-    "Esta es la descripcion de una prueba1",
-    1500,
-    "Without image",
-    "AAA001",
-    36
-  );
+  // await productManager.addProduct(
+  //   "prueba1",
+  //   "Esta es la descripcion de una prueba1",
+  //   1500,
+  //   "Without image",
+  //   "AAA001",
+  //   36
+  // );
 
-  await productManager.addProduct(
-    "prueba2",
-    "Esta es la descripcion de un prueba2",
-    2050,
-    "Without image",
-    "AAA002",
-    29
-  );
+  // await productManager.addProduct(
+  //   "prueba2",
+  //   "Esta es la descripcion de un prueba2",
+  //   2050,
+  //   "Without image",
+  //   "AAA002",
+  //   29
+  // );
 
-  await productManager.addProduct(
-    "prueba3",
-    "Esta es la descripcion de una prueba3",
-    1685,
-    "Without image",
-    "AAA003",
-    32
-  );
+  // await productManager.addProduct(
+  //   "prueba3",
+  //   "Esta es la descripcion de una prueba3",
+  //   1685,
+  //   "Without image",
+  //   "AAA003",
+  //   32
+  // );
 
   await productManager.getProducts();
 

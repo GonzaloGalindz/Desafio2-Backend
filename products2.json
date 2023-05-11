@@ -10,11 +10,20 @@
   },
   {
     "id": 2,
-    "title": "nuevo titulo",
+    "title": "prueba2",
     "description": "Esta es la descripcion de un prueba2",
     "price": 2050,
     "thumbnail": "Without image",
     "code": "AAA002",
     "stock": 29
+  },
+  {
+    "id": 3,
+    "title": "prueba3",
+    "description": "Esta es la descripcion de una prueba3",
+    "price": 1685,
+    "thumbnail": "Without image",
+    "code": "AAA003",
+    "stock": 32
   }
 ]
